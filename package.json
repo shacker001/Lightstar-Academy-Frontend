@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.0.2",
+    "@stripe/react-stripe-js": "^3.5.1",
+    "@stripe/stripe-js": "^6.1.0",
+    "axios": "^1.9.0",
+    "jwt-decode": "^4.0.0",
+    "react-router-dom": "^7.5.2",
+    "tailwindcss": "^4.1.4"
+  }
+}

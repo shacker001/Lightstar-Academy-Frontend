@@ -1,0 +1,74 @@
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom Styling */
+body {
+  font-family: 'Inter', sans-serif;
+  padding-top: 80px; /* Adjust depending on navbar height */
+  @apply bg-gray-100 text-gray-800;
+}
+
+/* Additional spacing for sections */
+section {
+  margin-bottom: 40px;
+}
+
+/* Header Styles */
+header {
+  @apply bg-blue-900 text-white py-4;
+}
+
+/* Main Container */
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+/* Section Headers */
+h1 {
+  @apply text-4xl font-bold text-center mb-6;
+}
+
+h2 {
+  @apply text-3xl font-semibold text-center mb-4;
+}
+
+h3 {
+  @apply text-2xl font-medium text-center mb-3;
+}
+
+/* CTA Button */
+.cta-button {
+  @apply bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-bold hover:bg-blue-700 transition duration-300;
+}
+
+/* Footer */
+footer {
+  @apply bg-blue-900 text-white text-center py-6 mt-10;
+}
+
+footer a {
+  @apply mx-2 hover:underline;
+}
+
+/* Custom Utility for Card Styling */
+.card {
+  @apply bg-white shadow-md rounded-lg p-6;
+}
+
+/* Grid Layout for Children in Need Section */
+.children-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6;
+}
+
+/* Responsive Image Styling */
+img {
+  @apply w-full h-auto rounded-lg;
+}
+
+/* Custom Blockquotes */
+blockquote {
+  @apply border-l-4 border-blue-600 bg-gray-100 p-4 italic;
+}
