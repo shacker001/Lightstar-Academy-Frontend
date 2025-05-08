@@ -49,7 +49,7 @@ const Navbar = () => {
           </div>
 
           {/* Login */}
-          <Link to="/login" className="block lg:inline-block text-gray-700 hover:text-blue-600 py-2">Login</Link>
+          {/* <Link to="/login" className="block lg:inline-block text-gray-700 hover:text-blue-600 py-2">Login</Link> */}
 
           {/* Donate Button */}
           <Link to="/donate" className="block lg:inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Donate</Link>
