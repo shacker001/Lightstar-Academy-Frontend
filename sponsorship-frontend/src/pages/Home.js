@@ -173,8 +173,8 @@ const Home = () => {
                 value={country}
                 onChange={(e) => setCountry(e.target.value)}
               >
-                <option value="All">All Countries</option>
-                <option value="Kenya">Kenya</option>
+                <option value="All">Kenya</option>
+                {/* <option value="Kenya">Kenya</option> */}
               </select>
             </div>
 
