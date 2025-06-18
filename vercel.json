@@ -1,5 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "builds": [
+    {
+      "src": "sponsorship-frontend/src/index.html",
+      "use": "@vercel/static"
+    }
   ]
 }

@@ -3,10 +3,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-    root: './src',
+    root: './sponsorship-frontend/src',
     build: {
       rollupOptions: {
-        input: '../sponsorship-frontend/src/index.html', // Adjust path reference
+        input: './index.html',
       }
     },
     plugins: [react()],
