@@ -6,7 +6,7 @@ export default defineConfig({
     root: './src',
     build: {
       rollupOptions: {
-        input: '../sponsorship/src/index.html', // Adjust path reference
+        input: '../sponsorship-frontend/src/index.html', // Adjust path reference
       }
     },
     plugins: [react()],
